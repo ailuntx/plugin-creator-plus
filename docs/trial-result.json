@@ -1,0 +1,52 @@
+{
+  "session_id": "01a08b53-e8d5-7da1-9c24-5732c8f7d92c",
+  "context_forked": false,
+  "implementation_or_publishing_steps_supplied": false,
+  "continuation_prompts": [
+    "继续完成发布。",
+    "网络问题解决了，继续吧。"
+  ],
+  "connectivity_restored_by_user": true,
+  "plugin": {
+    "name": "json-change-lens",
+    "version": "1.0.0",
+    "package_sha256": "467160f368e4cf185bbb35cfdbd143b01b8fbb2036767780e8b3cf70c9e3839b",
+    "plugin_id": "plugins_6aa2c00baab481919a952c2da8eeb2a0",
+    "submission_id": "appsub_6aa2c00baecc819195085ee3f241cf6b",
+    "submission_url": "https://platform.openai.com/plugins/plugins_6aa2c00baab481919a952c2da8eeb2a0/submissions/appsub_6aa2c00baecc819195085ee3f241cf6b",
+    "status": "Published",
+    "observed_at": "2026-09-10T14:42:38.334Z",
+    "directory_url": "https://chatgpt.com/plugins/plugins_6aa2c00baab481919a952c2da8eeb2a0",
+    "skill_scan_status": "Passed"
+  },
+  "tests": {
+    "unit": {
+      "run": 30,
+      "passed": 30,
+      "failed": 0,
+      "command": "python3 tests/test_json_diff.py"
+    },
+    "sample_summary": {
+      "added": 2,
+      "removed": 1,
+      "changed": 2,
+      "type_changed": 1,
+      "total": 6
+    },
+    "packaged_integration_passed": true,
+    "installed_integration_passed": true,
+    "validators_passed": true,
+    "public_directory_installation_tested": false
+  },
+  "portal_evidence": {
+    "observed_at": "2026-09-10T14:42:38.334Z",
+    "portal_url": "https://platform.openai.com/plugins",
+    "text": "JSON Change Lens\nCompare JSON with clear diffs\nVERSION\tSTATUS\t\nACTIONS\n\n1.0.0\t\nPublished\n(View in Directory\n)\n\t",
+    "links": [
+      {
+        "text": "View in Directory",
+        "url": "https://chatgpt.com/plugins/plugins_6aa2c00baab481919a952c2da8eeb2a0"
+      }
+    ]
+  }
+}
