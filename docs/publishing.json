@@ -1,11 +1,17 @@
 {
   "plugin": "plugin-creator-plus",
   "version": "0.1.0",
-  "sha256": "ebdc1306f8cae1eadcee3e1a6417c8d290faa10c1c63ee530c0c54e373e13e2f",
   "plugin_id": "plugins_6aa2a71bc958819187e6ba5fa58ae905",
   "submission_id": "appsub_6aa2a71bd0088191af18023c220cc06c",
   "submission_url": "https://platform.openai.com/plugins/plugins_6aa2a71bc958819187e6ba5fa58ae905/submissions/appsub_6aa2a71bd0088191af18023c220cc06c",
-  "status": "Draft",
-  "observed_at": "2026-09-10T12:52:09.589042+00:00",
-  "directory_url": null
+  "status": "draft_update_upload_failed_network",
+  "observed_at": "2026-09-10T13:19:24.742351+00:00",
+  "directory_url": null,
+  "uploaded_package_sha256": "ebdc1306f8cae1eadcee3e1a6417c8d290faa10c1c63ee530c0c54e373e13e2f",
+  "pending_package_sha256": "e9ffd313e10e51e899b4c624124007346d5575c6ca590c5e40009f0db56e9d53",
+  "skill_scan": "passed_on_initial_upload",
+  "last_error": "Failed to fetch while uploading replacement ZIP",
+  "browser_task_space_id": 37,
+  "browser_page": "p1",
+  "next_action": "Resume existing Upload new version dialog and re-upload the prepared ZIP after connectivity is restored; verify the resulting draft and complete submission and publication."
 }
