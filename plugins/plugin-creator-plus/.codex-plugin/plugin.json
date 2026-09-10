@@ -1,13 +1,13 @@
 {
   "name": "plugin-creator-plus",
-  "version": "0.1.0+codex.20260910130326",
+  "version": "0.1.0+codex.20260910143341",
   "description": "Create, test, package, and publish ChatGPT and Codex plugins using installed companion skills and the OpenAI publishing portal.",
   "author": {
     "name": "\u6c88\u9633\u9713\u8679\u661f\u6865\u79d1\u6280\u5de5\u4f5c\u5ba4\uff08\u4e2a\u4eba\u72ec\u8d44\uff09",
     "url": "https://www.ailuntz.com"
   },
   "skills": "./skills/",
-  "homepage": "https://www.ailuntz.com",
+  "homepage": "https://github.com/ailuntx/plugin-creator-plus",
   "license": "SEE LICENSE IN LICENSE",
   "interface": {
     "displayName": "Plugin Creator Plus",
@@ -24,6 +24,9 @@
     "brandColor": "#6541C8",
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/icon.png",
-    "websiteURL": "https://www.ailuntz.com"
-  }
+    "websiteURL": "https://www.ailuntz.com",
+    "privacyPolicyURL": "https://github.com/ailuntx/plugin-creator-plus/blob/main/docs/privacy.md",
+    "termsOfServiceURL": "https://github.com/ailuntx/plugin-creator-plus/blob/main/docs/terms.md"
+  },
+  "repository": "https://github.com/ailuntx/plugin-creator-plus"
 }
