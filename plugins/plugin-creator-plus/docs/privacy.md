@@ -8,4 +8,4 @@ When you request publication, your agent uploads the selected plugin package, li
 
 Optional credential access is delegated to your separately installed AI Know Me configuration. Existing browser sign-in is preferred. The workflow instructs the agent to inject only necessary credentials into trusted processes and exclude credentials, raw execution logs, and browser session data from packages and reports. This is workflow guidance, not a guarantee against mistakes by a host, agent, dependency, or user-provided script.
 
-For questions, use https://github.com/ailuntx/plugin-creator-plus/issues. Do not include passwords, tokens, private source, or personal account data in public issues.
+For questions, use https://www.ailuntz.com. Do not include passwords, tokens, private source, or personal account data in public issues.

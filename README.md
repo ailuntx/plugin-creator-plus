@@ -30,4 +30,4 @@ python3 -m unittest discover -s tests -v
 
 打包工具只处理 Plugin Creator 生成的 skills-only 目录。MCP 项目走发布门户的 With MCP 流程。它不会上传文件或修改原插件；公开上传由 Agent 在用户授权的发布任务中执行。
 
-[隐私说明](docs/privacy.md) · [使用条款](docs/terms.md) · [问题反馈](https://github.com/ailuntx/plugin-creator-plus/issues)
+[隐私说明](docs/privacy.md) · [使用条款](docs/terms.md) · [开发者网站](https://www.ailuntz.com)

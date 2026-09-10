@@ -6,4 +6,4 @@ You may install and run Plugin Creator Plus for your authorized plugin-developme
 
 Plugin Creator Plus is independently developed. It is not affiliated with or endorsed by OpenAI, and it does not bundle ownership or distribution rights to companion tools. OpenAI Platform, GitHub, and other services have separate terms. This plugin cannot guarantee review acceptance, scan completion time, continued service access, or permanent browser compatibility.
 
-Source and redistribution rights are described in LICENSE. Support: https://github.com/ailuntx/plugin-creator-plus/issues.
+Source and redistribution rights are described in LICENSE. Support: https://www.ailuntz.com.
