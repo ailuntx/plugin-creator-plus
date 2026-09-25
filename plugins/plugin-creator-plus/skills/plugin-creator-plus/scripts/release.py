@@ -19,7 +19,11 @@ CATEGORIES = {'Productivity', 'Creativity', 'Developer Tools', 'Business & Opera
 SKIP = {'.git', '__pycache__', '.DS_Store'}
 ROOTS = {'.codex-plugin', 'skills', 'assets', 'docs', 'scripts', 'LICENSE', 'LICENSE.md',
          'NOTICE', 'README.md'}
-SECRET_NAMES = {'credentials.json', 'auth.json', 'id_rsa', 'id_ed25519', 'authorized_keys'}
+SECRET_NAMES = {
+    '.npmrc', '.pypirc', '.netrc', 'credentials.json', 'auth.json',
+    'secrets.json', 'secrets.yaml', 'secrets.yml',
+    'id_rsa', 'id_ed25519', 'authorized_keys',
+}
 
 
 def require(condition, message):
@@ -49,7 +53,7 @@ def collect(root):
             continue
         name = rel.as_posix()
         require(not path.is_symlink(), f'Symlinks are not packaged: {name}')
-        require(not path.name.startswith('.env') and path.name not in SECRET_NAMES
+        require(not path.name.casefold().startswith('.env') and path.name.casefold() not in SECRET_NAMES
                 and path.suffix.lower() not in {'.key', '.p12', '.pfx', '.pem'},
                 f'Sensitive filename must be outside the plugin: {name}')
         require(rel.parts[0] not in {'.mcp.json', 'mcp.json', '.app.json'},

@@ -1,6 +1,6 @@
 {
   "name": "plugin-creator-plus",
-  "version": "0.1.1+codex.20260925000914",
+  "version": "0.1.2+codex.20260925002000",
   "description": "Create, test, package, and publish ChatGPT and Codex plugins using installed companion skills and the OpenAI publishing portal.",
   "author": {
     "name": "ailuntz",

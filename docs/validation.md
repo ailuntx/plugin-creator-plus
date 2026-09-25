@@ -2,7 +2,7 @@
 
 ## Local release helper
 
-2026-09-10: 9 tests passed with `python3 -m unittest discover -s tests -v`.
+2026-09-10: 9 tests passed; 2026-09-25: 10 tests passed with `python3 -m unittest discover -s tests -v`. The new test covers common credential filenames and case variants.
 
 - Deterministic ZIP bytes, file inventory, stripped local cache suffix, and unchanged source manifest.
 - Rejection of invalid directory category and listing length limits.

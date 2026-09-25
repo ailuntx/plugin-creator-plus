@@ -2,7 +2,7 @@
 
 创建、测试、打包和发布 ChatGPT / Codex 插件的统一工作流。独立开发，与 OpenAI 无隶属关系。
 
-[安装 Plugin Creator Plus 0.1.1](https://chatgpt.com/plugins/plugins_6aa2a71bc958819187e6ba5fa58ae905)
+[安装 Plugin Creator Plus 0.1.2](https://chatgpt.com/plugins/plugins_6aa2a71bc958819187e6ba5fa58ae905)
 
 直接说：
 
@@ -34,6 +34,6 @@ python3 -m unittest discover -s tests -v
 
 ## 实际验证
 
-发布工具的 9 项测试通过。全新独立会话仅收到“自行构思、制作、测试并发布”的目标，自行完成了 [JSON Change Lens 1.0.0](https://chatgpt.com/plugins/plugins_6aa2c00baab481919a952c2da8eeb2a0)，30 项功能测试通过，平台状态为 Published。中途网络中断，由用户恢复后继续；没有补充实现或发布步骤。[完整测试记录](docs/validation.md)
+发布工具的 10 项测试通过。全新独立会话仅收到“自行构思、制作、测试并发布”的目标，自行完成了 [JSON Change Lens 1.0.0](https://chatgpt.com/plugins/plugins_6aa2c00baab481919a952c2da8eeb2a0)，30 项功能测试通过，平台状态为 Published。中途网络中断，由用户恢复后继续；没有补充实现或发布步骤。[完整测试记录](docs/validation.md)
 
 [隐私说明](docs/privacy.md) · [使用条款](docs/terms.md) · [开发者网站](https://www.ailuntz.com)

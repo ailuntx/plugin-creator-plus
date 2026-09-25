@@ -55,6 +55,15 @@ class ReleaseTests(unittest.TestCase):
             module.release(self.root, self.base / 'dist')
         self.assertFalse((self.base / 'dist').exists())
 
+    def test_common_credential_files_are_rejected_case_insensitively(self):
+        for name in ['.NPMRC', 'secrets.yaml', '.ENV.local']:
+            with self.subTest(name=name):
+                path = self.root / 'skills/demo' / name
+                path.write_text('sample-only')
+                with self.assertRaisesRegex(ValueError, 'Sensitive filename'):
+                    module.release(self.root)
+                path.unlink()
+
     def test_rejects_external_symlink(self):
         outside = self.base / 'private.txt'
         outside.write_text('sample-only')
