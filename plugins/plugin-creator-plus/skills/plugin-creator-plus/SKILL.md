@@ -1,6 +1,6 @@
 ---
 name: plugin-creator-plus
-description: Create, test, package, and publish ChatGPT and Codex plugins from a project or an idea. Coordinates Plugin Creator, OpenAI Developers submission preparation, AI Know Me credentials when needed, and ego-browser for the OpenAI publishing portal. Use for plugin creation, updates, or public directory releases.
+description: Create, test, package, and publish ChatGPT and Codex plugins from a project or an idea. Coordinates Plugin Creator, OpenAI Developers submission preparation, Keybook credentials when needed, and ego-browser for the OpenAI publishing portal. Use for plugin creation, updates, or public directory releases.
 ---
 
 # Plugin Creator Plus
@@ -17,7 +17,7 @@ Resolve companion skills from the current session's skill catalog and read the a
 | Author or improve the skill itself | Built-in `skill-creator`, when available |
 | Current OpenAI requirements | `openai-docs` and official developer documentation |
 | MCP app implementation and submission JSON | OpenAI Developers: `build-chatgpt-app`, `chatgpt-app-submission` |
-| Stored service or website credentials | `ai-know-me` |
+| Stored service or website credentials | `keybook` |
 | Signed-in publishing portal | `ego-browser` |
 
 If a required capability is unavailable, report its name and continue independent preparation. Installing this plugin alone does not install its companions. For a skills-only plugin, do not introduce MCP or API-key setup just to use the OpenAI Developers bundle.
@@ -47,7 +47,7 @@ This helper intentionally packages skills-only releases. If the plugin has MCP/a
 
 Creation/local installation and public publication are different destinations. A user request to publish authorizes completing that release in the specified account; retain that authorization through scan waits and routine fixes. Do not ask again merely because the next action is Submit or Publish. If publication has not been requested, deliver the prepared result without making it public.
 
-Read [the portal workflow](references/publishing.md) for public releases. Use the existing signed-in browser session first. AI Know Me supplies an existing credential only when the task actually needs one; storing a secret is not permission to use it elsewhere. Do not create an OpenAI API key for portal publishing or treat the Skills API as a directory publishing endpoint.
+Read [the portal workflow](references/publishing.md) for public releases. Use the existing signed-in browser session first. Keybook supplies an existing credential only when the task actually needs one; storing a secret is not permission to use it elsewhere. Do not create an OpenAI API key for portal publishing or treat the Skills API as a directory publishing endpoint.
 
 Success requires the portal to show the requested version as **Published** and provide its directory link. Record nonsecret evidence in a project-level `docs/publishing.json`: package SHA-256, version, plugin/submission IDs and URLs, last observed status, observation time, and directory URL when present. Draft, scan passed, submitted, approved, and published are distinct states. On interruption, reopen the recorded draft and inspect it before retrying; do not create duplicate listings.
 

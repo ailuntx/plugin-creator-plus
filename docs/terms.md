@@ -1,6 +1,6 @@
 # Terms — Plugin Creator Plus
 
-Publisher: 沈阳霓虹星桥科技工作室（个人独资）.
+Publisher: ailuntz.
 
 You may install and run Plugin Creator Plus for your authorized plugin-development and publishing tasks. The software is provided as available, without warranties to the extent permitted by applicable law. You are responsible for the content, rights, accounts, and publication decisions you authorize.
 
